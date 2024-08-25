@@ -79,7 +79,7 @@ function renderTodos(todos)
     <div >
         <input type="checkbox" id="${todo.checkId}" ${todo.isCompleted? 'checked':'' } >
             <input type="text" id="${todo.TodoTextId}" value="${todo.title}"
-            ${todo.isEditing?'class="bg-transparent border-none text-white focus:outline-none focus:ring focus:ring-blue-500"':'class="bg-transparent border-none text-white focus:outline-none" readonly'}
+            ${todo.isEditing?'class="bg-transparent border-none text-white focus:outline-none focus:ring focus:ring-blue-500"':'class="bg-transparent border-none text-white focus:outline-none caret-transparent" readonly'}
             >
         
         </div>
