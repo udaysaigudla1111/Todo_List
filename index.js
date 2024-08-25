@@ -24,7 +24,7 @@ function addItem(todos)
     });
     ctr++;
     renderTodos(todos);
-    input.values="";
+    input.value="";
 }
 //-------------------------------------------------------------------------------
 function deleteItem(todoId)
